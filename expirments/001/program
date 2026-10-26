@@ -1,0 +1,30 @@
+user_input = input("Enter an operator (+, -, *, /): ")
+if user_input == "+":
+    print("adding")
+elif user_input == "-":
+    print("subtracting")
+elif user_input == "*":
+    print ("multiplying")
+elif user_input == "/":
+    print("dividing")
+else:
+    print("invalid operator")
+
+
+
+a = float(input("enter first number: "))
+b = float(input("enter second number: "))
+op = input("opereation:")
+if op == "+":
+    print( "a + b=", a + b)
+elif op == "-":
+    print("a-b=", a - b)
+elif op == "*":
+    print ("a*b=", a * b)
+elif op == "/":
+    if b == 0:
+        print("error")
+    else:
+        print("a/b=", a / b)
+else:
+    print("invalid operator")
