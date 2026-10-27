@@ -1,0 +1,1 @@
+making computer to lock a secret number and bulding a guessing game program 
